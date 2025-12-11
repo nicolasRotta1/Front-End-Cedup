@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Check, Zap, BarChart3, Lock, Menu, X, Database } from 'lucide-react';
+import { ArrowRight, Check, Zap, BarChart3, Lock, Menu, X, Database } from 'lucide-react';
 import './Homepage.css';
 
 function Home() {
