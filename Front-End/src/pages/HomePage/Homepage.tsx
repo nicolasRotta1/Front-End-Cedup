@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowRight, Check, Zap, BarChart3, Lock, Menu, X, Database } from 'lucide-react';
+import { Check, Zap, BarChart3, Lock, Menu, X, Database } from 'lucide-react';
 import './Homepage.css';
 
 function Home() {
@@ -188,7 +188,7 @@ function Home() {
               {
                 icon: Lock,
                 title: 'Segurança Máxima',
-                description: 'Proteção de dados com criptografia de nível militar e conformidade LGPD.'
+                description: 'Proteção de dados com criptografia.'
               },
               {
                 icon: Zap,
@@ -199,11 +199,6 @@ function Home() {
                 icon: Database,
                 title: 'Backup Automático',
                 description: 'Seus dados são salvos automaticamente com redundância completa.'
-              },
-              {
-                icon: ArrowRight,
-                title: 'Integrações',
-                description: 'Conecte-se com as ferramentas que você já usa no seu dia a dia.'
               },
             ].map((feature, index) => (
               <div key={index} className="feature-card">
